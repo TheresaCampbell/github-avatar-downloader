@@ -38,5 +38,5 @@ getRepoContributors(args[0], args[1], function(err, result) {
 
 function downloadImageByURL(url, filePath) {
   request.get(url)
-          .pipe(fs.createWriteStream(filePath))
+         .pipe(fs.createWriteStream(filePath))
 }
